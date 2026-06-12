@@ -5,7 +5,7 @@
   xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
   xsi:type="TaskPaneApp">
 
-  <Id>12345678-1234-1234-1234-123456789012</Id>
+  <Id>adb74b12-993d-4b50-97b6-a90397e21d79</Id>
   <Version>1.0.0.3</Version>
   <ProviderName>Take2 IT</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
