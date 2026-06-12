@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp
+  xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+  xsi:type="TaskPaneApp">
+
+  <Id>12345678-1234-1234-1234-123456789012</Id>
+  <Version>1.0.0.3</Version>
+  <ProviderName>Take2 IT</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+
+  <DisplayName DefaultValue="Take2 Logo Inserter"/>
+  <Description DefaultValue="Inserts the Take2 logo into the document header with one click."/>
+
+  <IconUrl DefaultValue="https://epopalt2.github.io/take2-logo-addin/office-icon.png"/>
+<HighResolutionIconUrl DefaultValue="https://epopalt2.github.io/take2-logo-addin/office-icon.png"/>
+  <SupportUrl DefaultValue="https://take2it.com"/>
+
+  <AppDomains>
+    <AppDomain>https://take2group.sharepoint.com</AppDomain>
+    <AppDomain>https://appsforoffice.microsoft.com</AppDomain>
+  </AppDomains>
+
+  <Hosts>
+    <Host Name="Document"/>
+  </Hosts>
+
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://epopalt2.github.io/take2-logo-addin/taskpane.html"/>
+  </DefaultSettings>
+
+  <Permissions>ReadWriteDocument</Permissions>
+
+</OfficeApp>
