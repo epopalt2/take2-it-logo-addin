@@ -50,9 +50,7 @@
 <body>
   <div class="container">
     <img class="preview" src="https://raw.githubusercontent.com/epopalt2/take2-it-logo-addin/main/it-logo.png">
-    <button onclick="insertLogo()">Insert Logo into Header</button>
-<button onclick="AddAptosFont()" style="margin-top:10px;">
-Apply Font Package</button>
+    <button onclick="insertLogo()">Insert IT Logo</button>
     <div id="status"></div>
   </div>
 
@@ -71,7 +69,7 @@ Apply Font Package</button>
 
         var paragraph = header.paragraphs.getFirst();
         var inlinePic = paragraph.insertInlinePictureFromBase64(logoBase64, 'Start');
-        inlinePic.width = 65;
+        inlinePic.width = 90;
         inlinePic.lockAspectRatio = true;
 
         return context.sync().then(function() {
@@ -80,17 +78,7 @@ Apply Font Package</button>
       }).catch(function(err) {
         status.textContent = '❌ Error: ' + err.message;
       });
-    }
-  function AddAptosFont() {
-    Word.run(function (context) {
-
-        var body = context.document.body;
-
-        // Apply Aptos to existing document body
-        body.font.name = "Aptos";
-
-        return context.sync();
-    })
+  
     .catch(function (error) {
         console.log(error);
         document.getElementById("status").innerText = error.message;
