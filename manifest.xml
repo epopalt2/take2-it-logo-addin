@@ -13,8 +13,8 @@
   <DisplayName DefaultValue="Take2 IT Logo Inserter"/>
   <Description DefaultValue="Inserts the Take2 IT logo into the document header with one click."/>
 
-  <IconUrl DefaultValue="https://epopalt2.github.io/take2-logo-addin/office-icon.png"/>
-<HighResolutionIconUrl DefaultValue="https://epopalt2.github.io/take2-logo-addin/office-icon.png"/>
+  <IconUrl DefaultValue="https://raw.githubusercontent.com/epopalt2/take2-it-logo-addin/main/it-icon.png"/>
+<HighResolutionIconUrl DefaultValue="https://raw.githubusercontent.com/epopalt2/take2-it-logo-addin/main/it-icon.png"/>
   <SupportUrl DefaultValue="https://take2it.com"/>
 
   <AppDomains>
